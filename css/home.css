@@ -39,6 +39,10 @@ body::after {
   z-index: -1;
 }
 
+button {
+  padding: 1px;
+}
+
 #mainstay {
   max-width: 1200px;
   margin: 0 auto;

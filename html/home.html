@@ -6,6 +6,7 @@
     <title>Shoe Show - Home</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
 </head>
 <body>
     <div id="mainstay">
@@ -34,6 +35,23 @@
             <div id="walkathon" class="section">Walkathons</div>
             <div id="joggernaught" class="section">Joggernaughts</div>
             <div id="stand" class="section">Competitive Standing</div>
+            <form action="/submit-rating" method="post">
+              <label for="shoe-love">How much do you love shoes?</label>
+              <select id="shoe-love" name="shoe-love">
+                <option value="">Please select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <button type="submit">Submit</button>
+            </form>
             <div class="socials">
                 <p><strong>Follow us on:</strong></p>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -41,6 +59,7 @@
             </div>
         </div>
     </div>
+    <script src="..//js/home.js"></script>
 </body>
 </html>
 
