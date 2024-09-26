@@ -117,7 +117,10 @@ h1 {
     font-size: 0.7em;
     vertical-align: middle;
 }
-
+/* .dropdown-content {
+    position: static;
+    background-color: rgba(51, 51, 51, 0.5);
+} */
 
 .product-grid {
   display: grid;

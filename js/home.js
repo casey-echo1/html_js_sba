@@ -14,7 +14,6 @@ function handleRatingSubmit(event) {
 }
 
 
-// Event listener for when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Add event listener to the form
     const form = document.querySelector('form');
